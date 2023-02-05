@@ -1,0 +1,7 @@
+service: "main.py:svc"
+include:
+- "*.py"
+python:
+ packages:
+  - scikit_learn
+  - numpy
