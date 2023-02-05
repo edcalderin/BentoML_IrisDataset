@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Since this is just a test using BentoML I create a naive Machine Learning model with Iris dataset. It consists of a classifier to predict one of the 4 corresponding labels.  
-Then, I used BentML to persist the models and leveraging BentoML features in order to automatically set a version tag to these ones.  
-Finally, FastAPI takes an important rol here by loading the saved model and making predictions through an API using the same neat features provided by BentoML.
+Since this is just a test using BentoML I created a naive Machine Learning model with Iris dataset. It consists of a classifier to predict one of the 4 corresponding labels.  
+Then, I used BentML features to persist this model and automatically set a version tag to it.  
+Finally, FastAPI comes into play by loading the saved model and making predictions through an API using the same neat features provided by BentoML.
 
 ## Steps to reproduce (Jumping some steps)
 
